@@ -144,9 +144,11 @@ h1 {
 }
 .card:nth-child(2) .image {
     background-image: url("../images/image2.jpeg");
-}.card:nth-child(3) .image {
+}
+.card:nth-child(3) .image {
     background-image: url("../images/image3.jpeg");
-}.card:nth-child(4) .image {
+}
+.card:nth-child(4) .image {
     background-image: url("../images/image4.jpeg");
 }
 
