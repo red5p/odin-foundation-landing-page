@@ -19,6 +19,8 @@ h1 {
 .top {
     background-color: #1F2937;
     padding: 14px 20%;
+    background-image: url("../images/bkg.jpeg");
+    background-size: cover;
 }
 
 .nav {
@@ -74,9 +76,9 @@ h1 {
 .main .image {
   background-color: grey;
   flex: 1 1 0;
-  background-image: url("http://image.uc.cn/s/wemedia/s/upload/2021/f644c21a8be600f1bf04495efc50fc41.png");
+  /* background-image: url("../images/intro.jpeg");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .intro button {
@@ -131,8 +133,21 @@ h1 {
 .card .image {
     width: 160px;
     height: 160px;
-    border: 2px #3882F6 solid;
+    /* border: 2px #3882F6 solid; */
     border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card:nth-child(1) .image {
+    background-image: url("../images/image1.jpeg");
+}
+.card:nth-child(2) .image {
+    background-image: url("../images/image2.jpeg");
+}.card:nth-child(3) .image {
+    background-image: url("../images/image3.jpeg");
+}.card:nth-child(4) .image {
+    background-image: url("../images/image4.jpeg");
 }
 
 .card p {
