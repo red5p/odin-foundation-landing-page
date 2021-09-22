@@ -94,7 +94,7 @@ h1 {
 }
 
 .intro button:hover {
-    background-color: #1F2937;
+    background-color: transparent;
     cursor: pointer;
     border: white 1px solid;
     margin: 0;
